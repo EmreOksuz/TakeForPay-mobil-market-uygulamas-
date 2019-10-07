@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/diamond_upholstery"
+
+
+    >
+
+    <EditText
+        android:id="@+id/msteriAdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ad"
+        android:textColor="#aaF44336"
+        android:textColorLink="#CCF44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msteriTcText" />
+
+    <EditText
+        android:id="@+id/msteriTcText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="11"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Tc Kimlik Numarası"
+        android:textColor="#aaF44336"
+        android:textColorLink="#CCF44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/msteriSoyadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Soyad"
+        android:textColor="#aaF44336"
+        android:textColorLink="#CCF44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msteriAdText" />
+
+    <EditText
+        android:id="@+id/msteriEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail"
+        android:textColor="#aaF44336"
+        android:textColorLink="#CCF44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msteriSoyadText" />
+
+    <EditText
+        android:id="@+id/msteriSifreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Parola"
+        android:textColor="#aaF44336"
+        android:textColorLink="#CCF44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msteriEmailText" />
+
+    <Button
+        android:id="@+id/KaydetBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="96dp"
+        android:background="@drawable/button_radius"
+        android:text="Kayıt Ol"
+        android:onClick="MusteriKaydet"
+        android:textColor="#DDFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msteriSifreText" />
+</android.support.constraint.ConstraintLayout>

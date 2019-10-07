@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Take For Pay</string>
+    <string name="kullaniciadi">Kullanıcı Numarası</string>
+    <string name="kullaniciparola">Parola</string>
+    <string name="benihatirla">Beni Hatırla</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
